@@ -12,10 +12,18 @@ const projects = [
     link: "https://helloss.itch.io/le-meilleur-reste-a-venir",
   },
   {
-    title: "Clocktown Murders",
-    description:"J'ai participé à la création d'un jeu de société original lors de la Game Jam 2024 au Ludomaker de Paris-Sorbonne à Saint-Denis. En collaboration avec deux autres personnes, nous avons conçu un jeu d'enquête immersif. J'ai travaillé en game design et narrative design pour construire une expérience captivante où les joueurs incarnent des enquêteurs dans une ville fictive.",
-    images: ["clock2.jpg","clock0.jpg", "clock1.jpg"],
+    title: "Keur Yaye Soda",
+    description:"Dans le cadre d’un projet de groupe, nous avons développé une application web pour un restaurant, intégrant des fonctionnalités de réservation de table, commande en ligne et gestion du menu. J’étais en charge du développement back-end, en utilisant Node.js, Express et MongoDB",
+    images: ["keur-yaye.png", "MeilleurC.jpg", "MeilleurD.jpg","MeilleurB.png"],
+    link: "https://projet-final-three.vercel.app",
   },
+  {
+    title: "Faynara Mastour",
+    description: "Site de vente de vêtements responsive, développé avec HTML, CSS et Bootstrap. Ce projet inclut une interface utilisateur conviviale permettant de naviguer facilement à travers différentes catégories de produits, de consulter des détails et d'ajouter des articles au panier. Le design est optimisé pour tous les types d'écrans, garantissant une expérience fluide sur desktop et mobile.",
+    images: ["fay.png", "fay1.png", "fay2.png", "fay3.png", "fay4.png"],
+    link: "https://khadija-diop.github.io/FAYNARA/",
+},
+
   {
     title: "Crossy Road",
     description:"J'ai participé à la création d'un jeu vidéo inspiré de Crossy Road. En tant que programmeuse, j'ai pris en charge l'intégralité de la programmation du jeu, qui a été développé avec Unity. J'ai également contribué au game design pour rendre l'expérience captivante.",
@@ -23,6 +31,33 @@ const projects = [
     images: ["Crossy.png"],
     video: "/CrossyRoad.mp4", // Ajout de la vidéo dans ce projet
   },
+  {
+    title: "Site de Chaussure",
+    description: "Interface de commande pour un site de vente de chaussures, permettant aux utilisateurs d'ajouter des produits au panier, de les supprimer et de finaliser leurs achats. Ce projet inclut une gestion dynamique du panier d'achats et un design responsive pour une expérience utilisateur optimale sur différents appareils.",
+    link: "https://khadija-diop.github.io/E-commerce-product-page/",
+    images: ["sneakers.png"],
+    // video: "/CrossyRoad.mp4", // Ajout de la vidéo dans ce projet
+  },
+  {
+    title: "NoteHack",
+    description: "NoteHack est une application de type CRUD permettant de gérer des blocs-notes en ligne. L'application offre une interface simple et intuitive, où l'utilisateur peut ajouter, modifier, supprimer et consulter des notes. Un des éléments distinctifs du projet est l'ajout de nuances de fond dynamiques, qui changent en fonction de l'interaction, offrant ainsi une expérience visuelle agréable et immersive.",
+    link: "https://khadija-diop.github.io/NoteHack/",
+    images: ["Crud.png", "crud2.png", "crud3.png"],
+    // video: "/CrossyRoad.mp4", // Ajout de la vidéo dans ce projet
+ },
+ {
+  title: "Dictionnaire",
+  description: "Dictionnaire en ligne permettant de rechercher et de consulter les définitions de mots en anglais. L'application offre une interface simple et efficace pour chercher des mots et afficher leur signification ainsi que des exemples d'utilisation. Ce projet est conçu pour offrir une expérience rapide et fluide lors de la recherche de mots.",
+  link: "https://khadija-diop.github.io/Dictionnaire/",
+  images: ["dict.png"],
+  // video: "/CrossyRoad.mp4", // Ajout de la vidéo dans ce projet
+ },
+  {
+    title: "Clocktown Murders",
+    description:"J'ai participé à la création d'un jeu de société original lors de la Game Jam 2024 au Ludomaker de Paris-Sorbonne à Saint-Denis. En collaboration avec deux autres personnes, nous avons conçu un jeu d'enquête immersif. J'ai travaillé en game design et narrative design pour construire une expérience captivante où les joueurs incarnent des enquêteurs dans une ville fictive.",
+    images: ["clock2.jpg","clock0.jpg", "clock1.jpg"],
+  },
+ 
 ];
 
 // Modal Component
